@@ -1,0 +1,27 @@
+.squares_wrapper {
+    padding: 50px 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    .square_item {
+        width: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .symbol {
+            padding-top: 4px;
+            background-color: black;
+            width: 30px;
+            height: 45px;
+            color: blanchedalmond;
+            text-align: center;
+            font-size: 25px;
+            div {
+                margin-top: 10px;
+            }
+
+        }
+    } 
+}
